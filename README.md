@@ -57,11 +57,18 @@ Project Files:
 The files uploaded are described as follows:
 
 customer_landing.sql: This file creates a table for the raw customer data.
+
 customer_trusted.py: This is a spark code that extracts raw customer data from AWS S3 landing zone to the trusted zone.
+
 customer_curated.py: This is a spark code that extracts customer data from AWS S3 trusted zone to the curated zone.
 
+
+
 accelerometer_landing.sql: Creates a table for the raw accelerometer data.
+
 accelerometer_trusted.py: This is a spark zone that extracts raw acceleromer data from the AWS S3 landing zone to trusted zone.
+
+
 
 step_trainer_trusted.py: This is a spark code that extracts step trainer data from AWS S3 landing zone to the trusted zone.
 
